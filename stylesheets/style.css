@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display:flex;
+}
+
+/* ぱいにゅうぞおん */
+#first{
+    height:100vh;
+    width: 100%;
+    background-image: url(images/top-view.png);
+    background-size: cover;
+}
+.top-view-wrapper{
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 50px;
+    padding-top: 20%;
+    color:white;
+}
+
+.top-view-wrapper p{
+    margin-top:10%;
+    color:white;
+    line-height:2em;
+}
+
+.top-button-wrapper{
+    margin-top:2%;
+    text-align: left;
+    height: 30%;
+}
+
+/* Ryoma Zone Start*/
+.about-wrapper{
+    margin:100px 0px;
+    text-align:center;
+}
+
+h2{
+    line-height:0.7em;
+    margin:25px 0;
+    color:#0c635f;
+}
+
+span{
+    font-size:0.5em;
+}
+
+.introduction-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom:100px;
+}
+
+.introduction-wrapper img{
+    width: 50%;
+}
+
+.intro-inner-1{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform:translateY(-50%);
+    background-color: white;
+    padding: 25px 100px;
+}
+
+.intro-inner-2{
+    z-index:1;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-inner-2 ul{
+    line-height:2em;
+    padding-left:1.5em;
+}
+
+.intro-inner-2 p{
+    margin-top:50px;
+}
+
+/* Ryoma Zone End*/
+
+
+/* 以下はなぞーん*/
+header{
+    width:100%;
+    align-items:center;
+    position:fixed;
+    background-color:white;
+    height:80px;
+    z-index:999;
+}
+
+header div{
+    width:80%;
+    margin:0 auto;
+}
+
+header div img {
+    width: 13%;
+    object-fit:contain;
+}
+header div a:nth-child(2){
+    margin-left:auto;
+    margin-right:25px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color:#0c635f;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:0.9em;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color:#11413e;
+}
+
+footer{
+    background-color:rgb(27, 27, 27);
+    padding:50px 0;
+    text-align: center;
+}
+
+footer div{
+    justify-content: center;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+footer div p{
+    color:white;
+    font-size:1em;
+    width:10%;
+}
+
+footer div p:nth-child(2){
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 80px;
+    border-left: dotted 2px;
+    padding-right: 80px;
+    border-right: dotted 2px;
+}
+
+footer img{
+    margin-bottom:15px;
+}
+
+footer p{
+    color:rgb(134, 134, 134);
+    font-size:0.5em;
+}
